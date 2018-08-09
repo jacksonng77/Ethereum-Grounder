@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+  <body>
+    <div class="container">   
+		<h1>Blockchain Kid Grounder Demo</h1>
+		<div class="row" id="accounts_list">
+            <div class="col-md-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Start Ground</div>
+					<div class="panel-body" id="txtStartGround"></div>
+				</div>
+			</div>
+            <div class="col-md-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">End Ground</div>
+					<div class="panel-body" id="txtEndGround"></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Call For Help</div>
+					<div class="panel-body" id="txtCallForHelp"></div>
+				</div>
+			</div>
+			<div class="col-md-3">			
+				<div class="panel panel-primary">
+					<div class="panel-heading">Moved</div>
+					<div class="panel-body" id="txtMoved"></div>
+				</div>
+			</div>
+        </div>
+    </div>
+  
+    <div class="container">   
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Actions</div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-default" id="btnGetContract">Contract Address</button>
+							<button type="button" class="btn btn-success" id="btnStartGround">Start Grounding</button>
+							<button type="button" class="btn btn-primary" id="btnEndGround">End Grounding</button>
+							<button type="button" class="btn btn-danger" id="btnRestartGround">Restart Grounding</button>
+							<button type="button" class="btn btn-warning" id="btnRefresh">Refresh</button>
+						</div>
+					</form>
+				</div>
+			</div>
+           <div class="panel panel-default">
+                <div class="panel-heading">Status</div>
+                <div class="panel-body">
+                    <div id="txtMessage"></label></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+   	<script src="index.js"></script>
+  
+</body>
+   
+</html>
